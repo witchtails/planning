@@ -1,0 +1,24 @@
+name: Adopt a new project
+description: Create a WitchTails proposal to fork + maintain a new Elixir project
+title: "<Adopt: PROJECT NAME>"
+labels: [Project]
+assignees: []
+body:
+  - type: textarea
+    id: link
+    attributes:
+      label: Current GitHub Repository
+      placeholder: "https://www.github.com/<author>/<repo>/"
+
+  - type: textarea
+    id: shepard
+    attributes:
+      label: Primary WitchTails Shepard of this Repository
+      placeholder: "@<github-username>"
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for adoption
+      placeholder: Describe why you want to adopt this project
+
